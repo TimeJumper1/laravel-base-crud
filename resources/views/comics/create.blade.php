@@ -45,7 +45,7 @@
 
             <div class="mb-3">
                 <label for="sale_date" class="form-label">in vendità dal</label>
-                <input type="text" class="form-control" id="sale_date" name="sale_date" value="{{ old('sale_date') }}">
+                <input type="text" class="form-control" id="sale_date" name="sale_date" value="{{ old('sale_date') }}" placeholder="yyyy-mm-dd">
             </div>
 
             <div class="mb-3">
