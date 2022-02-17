@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('main_content')
-    <h1>Lista fumetti singolo</h1>
+    <h1> fumetto singolo</h1>
 
     <div>
         <h2>titolo:{{ $comic->title }}</h2>
